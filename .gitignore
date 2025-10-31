@@ -1,0 +1,33 @@
+# Байткод и кеш интерпретатора Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Кэш mypy (статический анализ типов)
+.mypy_cache/
+
+# Кэш инструментов типа pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Виртуальные окружения Python
+venv/
+.env/
+.venv/
+ENV/
+env/
+
+# Конфиги IDE, которые не нужно тащить в репозиторий
+.vscode/
+.idea/
+
+# Лог-файлы и отчёты
+*.log
+*.tmp
+*.bak
+
+# Тестовые/временные файлы
+*.swp
+*.swo
+*.orig
