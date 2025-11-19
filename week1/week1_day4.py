@@ -18,19 +18,19 @@ import platform  # чтобы подобрать правильный флаг p
 servers = [
     {
         "name": "test-pvm1",
-        "ip": "10.38.22.143",
+        "ip": "10.38.26.62",
         "role": "виртуализация / KVM host",
         "spec": "CPU 8, RAM 16G, HDD 100G",
     },
     {
         "name": "test-pvm2",
-        "ip": "10.38.22.149",
+        "ip": "10.38.26.63",
         "role": "обычная ВМ для тестов",
         "spec": "CPU 2, RAM 4G, HDD 50G",
     },
     {
         "name": "test-pmon",
-        "ip": "10.38.22.164",
+        "ip": "10.38.26.64",
         "role": "monitoring / prometheus / grafana (logger на этой же ВМ)",
         "spec": "CPU 4, RAM 8G, HDD 50G",
     },
